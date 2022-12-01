@@ -96,6 +96,7 @@ def create_your_own_json():
     print(play_dct)
     print()
     print("Now we'll make an API call to GPT-3 and generate your customized commentary!")
+    print()
     transcript = try_gpt(str(play_dct)).strip()
     print(transcript)
     return (play_dct, transcript)

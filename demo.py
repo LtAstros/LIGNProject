@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-
+from gpt3 import try_gpt
 
 
 def create_your_own_json():
@@ -52,6 +52,7 @@ def create_your_own_json():
     else:
         play_dct['posteam_type'] = 'away'
         play_dct['defteam'] = play_dct['home_team']
+    play_dct['td_team'] = play_dct['posteam']
     print("Great! That means that the", play_dct['posteam_type'], "team has the ball, and", play_dct['defteam'], "is defending!")
     print("Now let's get into the thick of it. What kind of play was just made? Your choices are between 'pass' and 'rush'.")
     print()
@@ -59,7 +60,7 @@ def create_your_own_json():
     play_dct[play_dct['play_type']+'_touchdown'] = 1
     print()
     if play_dct['play_type'] == 'pass':
-        print("Who was throwing the ball? Name should be formatted as follows:")
+        print("Who was throwing the ball? Be as creative as you want! Name should be formatted as follows:")
         print("First letter of first name, last name, ie. T. Brady, R. Wilson. ")
         print()
         play_dct['passer_player_name'] = input("Dream QB here please: ")
@@ -93,4 +94,8 @@ def create_your_own_json():
     print("For reference here is what your object looks like: ")
     print()
     print(play_dct)
-    return play_dct
+    print()
+    print("Now we'll make an API call to GPT-3 and generate your customized commentary!")
+    transcript = try_gpt(str(play_dct)).strip()
+    print(transcript)
+    return (play_dct, transcript)

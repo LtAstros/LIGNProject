@@ -1,0 +1,33 @@
+Your task is to create football commentary based on given JSON data. The JSON data gives information on the play-by-play behind the the commentary you will create. Write commentary the same way that a 2009 NFL commentator would say it. 
+
+Begin.
+
+JSON data:
+{"home_team":"MIN","away_team":"SF","posteam":"MIN","posteam_type":"home","defteam":"SF","side_of_field":"SF","yardline_100":26.0,"quarter_seconds_remaining":6.0,"half_seconds_remaining":6.0,"game_seconds_remaining":1806.0,"game_half":"Half1","drive":14,"sp":1,"qtr":2,"down":2.0,"time":"00:06","yrdln":"SF 26","ydstogo":20,"ydsnet":54,"play_type":"field_goal","field_goal_result":"blocked","kick_distance":44.0,"away_timeouts_remaining":1,"td_team":"SF","posteam_timeouts_remaining":1.0,"defteam_timeouts_remaining":1.0,"total_home_score":13,"total_away_score":13,"posteam_score":13.0,"defteam_score":7.0,"score_differential":6.0,"posteam_score_post":13.0,"defteam_score_post":13.0,"touchdown":1.0,"field_goal_attempt":1.0,"kicker_player_name":"R.Longwell","kicker_player_id":"00-0010072","blocked_player_id":"00-0025484","blocked_player_name":"R.McDonald"}
+Commentary:
+```
+And it's blocked! And it's picked up by the 49ers! Nate Clements goes in for a touchdown! What a play! I believe Ray McDonald blocked it, Nate Clements picked it up and the 49ers have a chance to take the lead!
+```
+
+JSON data:
+{"home_team":"PIT","away_team":"GB","posteam":"PIT","posteam_type":"home","defteam":"GB","side_of_field":"PIT","yardline_100":60.0,"quarter_seconds_remaining":868.0,"half_seconds_remaining":1768.0,"game_seconds_remaining":3568.0,"game_half":"Half1","drive":2,"sp":1,"qtr":1,"down":1.0,"time":"14:28","yrdln":"PIT 40","ydstogo":10,"ydsnet":60,"play_type":"pass","yards_gained":60,"qb_dropback":1.0,"pass_length":"deep","pass_location":"right","air_yards":51.0,"yards_after_catch":9.0,"away_timeouts_remaining":3,"td_team":"PIT","posteam_timeouts_remaining":3.0,"defteam_timeouts_remaining":3.0,"total_home_score":6,"posteam_score_post":6.0,"score_differential_post":6.0,"first_down_pass":1.0,"pass_attempt":1.0,"touchdown":1.0,"pass_touchdown":1.0,"complete_pass":1.0,"passer_player_id":"00-0022924","passer_player_name":"B.Roethlisberger","receiver_player_id":"00-0026901","receiver_player_name":"M.Wallace"}
+Commentary:
+```
+Here is one aired out for Mike Wallace. What a start. Touch down Pittsburgh!
+```
+
+JSON data:
+{"home_team":"ARI","away_team":"GB","posteam":"ARI","posteam_type":"home","defteam":"GB","side_of_field":"GB","yardline_100":1.0,"quarter_seconds_remaining":668.0,"half_seconds_remaining":1568.0,"game_seconds_remaining":3368.0,"game_half":"Half1","drive":2,"sp":1,"qtr":1,"down":1.0,"goal_to_go":1.0,"time":"11:08","yrdln":"GB 1","ydstogo":1,"ydsnet":40,"play_type":"run","yards_gained":1,"run_location":"right","run_gap":"tackle","away_timeouts_remaining":3,"td_team":"ARI","posteam_timeouts_remaining":3.0,"defteam_timeouts_remaining":3.0,"total_home_score":6,"posteam_score_post":6.0,"score_differential_post":6.0,"first_down_rush":1.0,"rush_attempt":1.0,"touchdown":1.0,"rush_touchdown":1.0,"rusher_player_id":"00-0026289","rusher_player_name":"T.Hightower"}
+Commentary:
+```
+On first and goal, Hightower slams it in for the touchdown.
+```
+
+JSON data:
+{"home_team":"NO","away_team":"MIN","posteam":"MIN","posteam_type":"away","defteam":"NO","side_of_field":"NO","yardline_100":19.0,"quarter_seconds_remaining":581.0,"half_seconds_remaining":1481.0,"game_seconds_remaining":3281.0,"game_half":"Half1","drive":1,"sp":1,"qtr":1,"down":2.0,"time":"09:41","yrdln":"NO 19","ydstogo":4,"ydsnet":80,"play_type":"run","yards_gained":19,"run_location":"left","run_gap":"guard","away_timeouts_remaining":3,"td_team":"MIN","posteam_timeouts_remaining":3.0,"defteam_timeouts_remaining":3.0,"total_away_score":6,"posteam_score_post":6.0,"score_differential_post":6.0,"first_down_rush":1.0,"rush_attempt":1.0,"touchdown":1.0,"rush_touchdown":1.0,"rusher_player_id":"00-0025394","rusher_player_name":"A.Peterson"}
+Commentary:
+```
+Peterson again! How about Adrian Peterson and the Vikings win an opening drive touchdown. He went around Sharper and takes it in for the first points of the evening.
+```
+
+JSON Data:

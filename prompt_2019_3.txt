@@ -1,4 +1,4 @@
-Your task is to create football commentary based on given JSON data. The JSON data gives information on the play-by-play behind the the commentary you will create. Write emotion-filled commentary the same way that a 2019 NFL commentator would say it. Make the introductions to the plays feel unique. 
+Your task is to create football commentary based on given JSON data. The JSON data gives information on a touchdown play behind the commentary you will create. Pay very close attention to the format of the JSON data and how it informs the commentary related to it. Write emotion-filled commentary the same way that a 2019 NFL commentator would say it. It's important that you use football jargon that is relevant to the play to make it feel more realistic. Also try to be creative with the introduction of the play.
 
 Begin.
 

@@ -1,10 +1,10 @@
 "thirteen is mike evans first and ten from the giants 20 yard line. Play action as Winston throws it's evans! his third touchdown here in the first half!"
 
 Output on Prompt1:
-"Jameis Winston drops back. Looks to his left. Now he's going deep to Mike Evans! Evans makes the catch! Touchdown!"
+"On first down, Winston looking for Evans. Evans! In the end zone! Touchdown, Tampa Bay!"
 
 Output on Prompt2:
-'First and 10. Winston drops back and heaves it deep for Mike Evans! Evans makes the catch! 20 yards for the touchdown!'
+"First and 10. Winston with the deep ball to Mike Evans and Evans makes the catch! He's into the end zone for the touchdown! The Bucs extend their lead!"
 
-Output on Prompt2:
-"Second and 7. Henry takes the handoff and he's looking for a hole. He finds one and he's off to the races! Henry will take it all the way into the endzone for a Titan touchdown!"
+Output on Prompt3:
+"Winston will take the snap and he's going deep! He's got Evans on the run! Evans makes the catch! 20 yards for the touchdown!"

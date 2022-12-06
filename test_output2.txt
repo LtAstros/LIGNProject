@@ -1,10 +1,10 @@
 'Wilson. Directing traffic to the end zone! and Hollister has it!'
 
 Output on Prompt1:
-'Wilson. Looking to his right. Now he throws on the run! Hollister! In the end zone! Touchdown Seahawks!'
+'First and goal from the three. Wilson takes the snap. Looks to his left. Finds Hollister in the back of the endzone. Touchdown, Seahawks!'
 
 Output on Prompt2:
-"First and goal. Wilson will take the snap. He's looking to his right. Now he's looking to his left. And he'll find Hollister in the back of the end zone for the touchdown!"
+"Wilson takes the snap and quick pass to Hollister in the endzone! The Seahawks take the lead!"
 
-Output on Prompt2:
-"First and goal. Wilson will take the snap. He's looking to his right. Now he's looking to his left. And he'll find Hollister in the back of the end zone for the touchdown!"
+Output on Prompt3:
+"Wilson on first and goal from the 3-yard line. He throws it to Hollister in the end zone and Hollister makes the catch! The Seahawks take the lead!"

@@ -1,10 +1,10 @@
 'Second and goal this is Jones. In side the 5, to the end zone! Touchdown! He knew that was coming eventually.'
 
 Output on Prompt1:
-"On second and goal. Jones takes the handoff. He's looking for the endzone. Got it!"
+"On second and goal. Jones takes the handoff. He's looking for a hole and he's got it! Jones into the endzone for a touchdown!"
 
 Output on Prompt2:
-"Second and goal. Jones takes the handoff and he'll find the end zone! The Giants take the lead!"
+"Second and goal. Daniel Jones takes the handoff. He's looking for a hole. He finds one and he's off to the races! into the endzone for the touchdown!! The Giants take the lead!"
 
-Output on Prompt2:
-"Second and 7. Henry takes the handoff and he's looking for a hole. He finds one and he's off to the races! Henry will take it all the way into the endzone for a Titan touchdown!"
+Output on Prompt3:
+"And it's Jones again! He takes it around the end and into the endzone! The Giants are on the board!"

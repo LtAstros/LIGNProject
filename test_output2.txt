@@ -2,3 +2,9 @@
 
 Output on Prompt1:
 'Wilson. Looking to his right. Now he throws on the run! Hollister! In the end zone! Touchdown Seahawks!'
+
+Output on Prompt2:
+"First and goal. Wilson will take the snap. He's looking to his right. Now he's looking to his left. And he'll find Hollister in the back of the end zone for the touchdown!"
+
+Output on Prompt2:
+"First and goal. Wilson will take the snap. He's looking to his right. Now he's looking to his left. And he'll find Hollister in the back of the end zone for the touchdown!"

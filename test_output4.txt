@@ -2,3 +2,9 @@
 
 Output on Prompt1:
 "Jameis Winston drops back. Looks to his left. Now he's going deep to Mike Evans! Evans makes the catch! Touchdown!"
+
+Output on Prompt2:
+'First and 10. Winston drops back and heaves it deep for Mike Evans! Evans makes the catch! 20 yards for the touchdown!'
+
+Output on Prompt2:
+"Second and 7. Henry takes the handoff and he's looking for a hole. He finds one and he's off to the races! Henry will take it all the way into the endzone for a Titan touchdown!"

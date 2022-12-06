@@ -1,4 +1,16 @@
-"play action off of this on second and seven and they get to him and they do so by bringing Williams and then the ball comes out! And picking it up is bucker! And we've got a San Francisco touchdown! Deforest Buckner! great football awareness!"
+"play action off of this on second and seven and they get to him and they do so by bringing Williams and then the ball comes out! And picking it up is Buckner! And we've got a San Francisco touchdown! Buckner! Great football awareness!"
 
 Output on Prompt1:
 "Second down and seven. Wilson back to pass steps up looking. He's hit! The ball is out! It's recovered by San Francisco!"
+
+Notes on the first prompt, very effective but noticably lacks commentator jargon like "head of steam", "play action", and "directing traffic". Thus we may want to seek a prompt with better tendency towards say random jargon.
+
+Output on Prompt2:
+"Second and 7. Wilson in the shotgun. He'll look for Ifedi on the quick slant. Ifedi makes the catch but he's immediately met by Buckner and he's wrapped up! The ball comes out and it's recovered by the 49ers!"
+
+The outputs have a lot more jargon which makes it seem at first sight a lot harder to discern than real commentary however its important to note that our model seems to have a very consistently similar opening with stating the quarter and down. While this is typically what commentators say during a play, without variety it may be much easier to disern the real commentary from the AI generated one. The next attempt will include manually editing the prompts to include more unique play introductions that can be included in these plays.
+
+Output on Prompt2:
+"Wilson on second down and 7, he'll drop back looking for a receiver. There's a man open! He'll throw it... oh! The ball is knocked out of his hand! It's picked up by Ifedi and he'll take it all the way into the endzone for a touchdown! The Seahawks take the lead!"
+
+The outputs have a lot more jargon which makes it seem at first sight a lot harder to discern than real commentary however its important to note that our model seems to have a very consistently similar opening with stating the quarter and down. While this is typically what commentators say during a play, without variety it may be much easier to disern the real commentary from the AI generated one. The next attempt will include manually editing the prompts to include more unique play introductions that can be included in these plays.

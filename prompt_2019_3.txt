@@ -1,0 +1,33 @@
+Your task is to create football commentary based on given JSON data. The JSON data gives information on the play-by-play behind the the commentary you will create. Write emotion-filled commentary the same way that a 2019 NFL commentator would say it. Make the introductions to the plays feel unique. 
+
+Begin.
+
+JSON data:
+{"home_team":"WAS","away_team":"DET","posteam":"WAS","posteam_type":"home","defteam":"DET","side_of_field":"DET","yardline_100":35.0,"quarter_seconds_remaining":789.0,"half_seconds_remaining":789.0,"game_seconds_remaining":2589.0,"game_half":"Half1","drive":5,"sp":1,"qtr":2,"time":"13:09","yrdln":"DET 35","play_type":"kickoff","kick_distance":59.0,"away_timeouts_remaining":3,"td_team":"WAS","posteam_timeouts_remaining":3.0,"defteam_timeouts_remaining":3.0,"total_home_score":9,"total_away_score":3,"posteam_score":3.0,"defteam_score":3.0,"posteam_score_post":9.0,"defteam_score_post":3.0,"score_differential_post":6.0,"touchdown":1.0,"return_touchdown":1.0,"kickoff_attempt":1.0,"kickoff_returner_player_name":"S.Sims","kickoff_returner_player_id":"00-0034928","kicker_player_name":"M.Prater","kicker_player_id":"00-0023853","return_team":"WAS","return_yards":91}
+Commentary:
+```
+Sims had a big return earlier takes this one on the run. Lost the football and stays on his feet. Out across the 30 and still going! Steven Sims will take this all the way into the endzone 91 yards for a redskin touchdown!!
+```
+
+JSON data:
+{"home_team":"TEN","away_team":"LAC","posteam":"LAC","posteam_type":"away","defteam":"TEN","side_of_field":"TEN","yardline_100":1.0,"quarter_seconds_remaining":223.0,"half_seconds_remaining":223.0,"game_seconds_remaining":2023.0,"game_half":"Half1","drive":5,"sp":1,"qtr":2,"down":3.0,"goal_to_go":1.0,"time":"03:43","yrdln":"TEN 1","ydstogo":1,"ydsnet":94,"play_type":"pass","yards_gained":1,"qb_dropback":1.0,"pass_length":"short","pass_location":"left","air_yards":1.0,"away_timeouts_remaining":3,"td_team":"LAC","posteam_timeouts_remaining":3.0,"defteam_timeouts_remaining":1.0,"total_home_score":3,"total_away_score":9,"posteam_score":3.0,"defteam_score":3.0,"posteam_score_post":9.0,"defteam_score_post":3.0,"score_differential_post":6.0,"first_down_pass":1.0,"third_down_converted":1.0,"pass_attempt":1.0,"touchdown":1.0,"pass_touchdown":1.0,"complete_pass":1.0,"passer_player_id":"00-0022942","passer_player_name":"P.Rivers","receiver_player_id":"00-0032144","receiver_player_name":"M.Gordon"}
+Commentary:
+```
+Rivers. he'll flip it to the wide open Gordon for the touchdown! The Chargers cash in!
+```
+
+JSON data:
+{"home_team":"TB","away_team":"NYG","posteam":"NYG","posteam_type":"away","defteam":"TB","side_of_field":"NYG","yardline_100":75.0,"quarter_seconds_remaining":900.0,"half_seconds_remaining":1800.0,"game_seconds_remaining":1800.0,"game_half":"Half2","drive":12,"sp":1,"qtr":3,"down":1.0,"time":"15:00","yrdln":"NYG 25","ydstogo":10,"ydsnet":75,"play_type":"pass","yards_gained":75,"shotgun":1,"qb_dropback":1.0,"pass_length":"short","pass_location":"left","air_yards":13.0,"yards_after_catch":62.0,"away_timeouts_remaining":3,"td_team":"NYG","posteam_timeouts_remaining":3.0,"defteam_timeouts_remaining":3.0,"total_home_score":28,"total_away_score":16,"posteam_score":10.0,"defteam_score":28.0,"score_differential":-18.0,"posteam_score_post":16.0,"defteam_score_post":28.0,"score_differential_post":-12.0,"first_down_pass":1.0,"pass_attempt":1.0,"touchdown":1.0,"pass_touchdown":1.0,"complete_pass":1.0,"passer_player_id":"00-0035710","passer_player_name":"D.Jones","receiver_player_id":"00-0033881","receiver_player_name":"E.Engram"}
+Commentary:
+```
+25 yard line off the fake to goldman! Jones pass is caught by Evan Engram still going! Down the sideline! Evan Engram will take this all the way! What a great read by Daniel Jones! More importantly, what a great read by Evan Engram!
+```
+
+JSON data:
+{"home_team":"BAL","away_team":"CLE","posteam":"BAL","posteam_type":"home","defteam":"CLE","side_of_field":"MID","yardline_100":50.0,"quarter_seconds_remaining":40.0,"half_seconds_remaining":40.0,"game_seconds_remaining":40.0,"game_half":"Half2","drive":23,"sp":1,"qtr":4,"down":1.0,"time":"00:40","yrdln":"MID 50","ydstogo":15,"ydsnet":79,"play_type":"pass","yards_gained":50,"shotgun":1,"no_huddle":1,"qb_dropback":1.0,"pass_length":"short","pass_location":"left","air_yards":6.0,"yards_after_catch":44.0,"away_timeouts_remaining":2,"td_team":"BAL","defteam_timeouts_remaining":2.0,"total_home_score":24,"total_away_score":40,"posteam_score":18.0,"defteam_score":40.0,"score_differential":-22.0,"posteam_score_post":24.0,"defteam_score_post":40.0,"score_differential_post":-16.0,"first_down_pass":1.0,"pass_attempt":1.0,"touchdown":1.0,"pass_touchdown":1.0,"complete_pass":1.0,"passer_player_id":"00-0034796","passer_player_name":"L.Jackson","receiver_player_id":"00-0030663","receiver_player_name":"W.Snead"}
+Commentary:
+```
+Jackson on first and 15 completes that ball to Willie Snead and Snead! Up the sideline! Snead looking for the end zone and he'll get there!
+```
+
+JSON Data:

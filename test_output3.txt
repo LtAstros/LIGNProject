@@ -2,3 +2,9 @@
 
 Output on Prompt1:
 "Second and seven. Henry around the end. He's got a block from Conklin and he's in! Touchdown Titans!"
+
+Output on Prompt2:
+"Second and 7. Henry takes the handoff and he's looking for a hole. He finds one and he's off to the races! Henry will take it all the way into the endzone for a Titan touchdown!"
+
+Output on Prompt3:
+"Henry on the run! He's looking for the end zone and he'll find it! The Titans take the lead with under a minute to go!"

@@ -6,7 +6,7 @@ Output on Prompt1:
 Notes on the first prompt, very effective but noticably lacks commentator jargon like "head of steam", "play action", and "directing traffic". Thus we may want to seek a prompt with better tendency towards say random jargon.
 
 Output on Prompt2:
-"Second and 7. Wilson in the shotgun. He's looking for a receiver. And he's got one! But the ball is knocked out of his hands! And it's picked up by Buckner! He's got a clear path to the end zone! And the 49ers will take the lead with this fumble recovery touchdown!"
+"2nd and 7. Wilson will drop back. Looking for a receiver. He's got one open. He'll throw it... Oh! It's knocked down at the line! And it's picked up by Buckner! He's got a head of steam. He's going to take it all the way back for the touchdown! The 49ers take the lead!"
 
 The outputs have a lot more jargon which makes it seem at first sight a lot harder to discern than real commentary however its important to note that our model seems to have a very consistently similar opening with stating the quarter and down. While this is typically what commentators say during a play, without variety it may be much easier to disern the real commentary from the AI generated one. The next attempt will include manually editing the prompts to include more unique play introductions that can be included in these plays.
 

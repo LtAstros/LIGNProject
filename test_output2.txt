@@ -4,7 +4,7 @@ Output on Prompt1:
 'First and goal from the three. Wilson takes the snap. Looks to his left. Finds Hollister in the back of the endzone. Touchdown, Seahawks!'
 
 Output on Prompt2:
-"Wilson takes the snap and quick pass to Hollister in the endzone! The Seahawks take the lead!"
+"Hollister! In tight coverage! And he makes the catch! Touchdown Seahawks!"
 
 Output on Prompt3:
 "Wilson on first and goal from the 3-yard line. He throws it to Hollister in the end zone and Hollister makes the catch! The Seahawks take the lead!"
